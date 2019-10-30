@@ -1,0 +1,61 @@
+/*
+ Theme Name:   Ocean WP Child
+ Theme URI:    https://wordpress.org/themes/oceanwp/
+ Description:  Ocean WP Child Theme
+ Author:       Stine Bredtoft
+ Author URI:   http://example.com
+ Template:     oceanwp
+ Version:      1.7.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         two-columns, right-sidebar, footer-widgets, blog, news, custom-background, custom-menu, post-formats, rtl-language-support, sticky-post, editor-style, threaded-comments, translation-ready, buddypress, custom-colors, featured-images, full-width-template, theme-options, e-commerce
+ Text Domain:  oceanwpchild
+*/
+
+.p {
+    font-family: josefin-slab;
+}
+
+.infographicContainer{
+    position:reletive;
+    margin-bottom:10px;
+}
+
+infographicContainer{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+
+/*css-animation på overskrift snippet fra https://raw.githubusercontent.com/daneden/animate.css/master/animate.css*/
+.elementor-77 .elementor-element.elementor-element-d8ba98d .elementor-heading-title, .elementor-80 .elementor-element.elementor-element-087c4ba .elementor-heading-title{ 
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+50% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
